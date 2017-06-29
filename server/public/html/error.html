@@ -1,0 +1,50 @@
+<!--error page " if user already exists while siging up"-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <h1 id="title1">User already exists</h1>
+    <center>
+        <h2>if you have already signed up please click login</h2></center>
+    <!--sign up form-->
+    <form action="/signup" method="post">
+        <center>
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td>
+                        <input class="textbox" type="text" placeholder="enter the username" name="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact number</td>
+                    <td>
+                        <input class="textbox" type="Number" placeholder="enter Your phone number" name="phnnum" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Emailid</td>
+                    <td>
+                        <input class="textbox" type="email" placeholder="xyz@gmail.com" name="mail" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input class="textbox" type="password" placeholder="password" name="pw" required>
+                    </td>
+                </tr>
+            </table>
+            <input id="login" type="submit" value="sign up" />
+            <center>
+                <a href="html/login.html">login</a>
+    </form>
+</body>
+
+</html>

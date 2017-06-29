@@ -1,0 +1,104 @@
+#title {
+    text-align: center;
+}
+
+
+/* text boxes style for all forms*/
+
+.textbox {
+    width: 350px;
+    padding: 15px 25px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9D9E9E;
+    text-shadow: 1px 1px 0 #FFF;
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    margin-bottom: 20px;
+}
+
+.textbox:focus {
+    background: #DFE9EC;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline: 0;
+}
+
+
+/*style for login and signup button*/
+
+#login {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #F1948A;
+}
+
+
+/*bacground for all pages*/
+
+body {
+    background: url(https://inspirationhut.net/wp-content/uploads/2013/10/background8small.jpg) center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*logo in movie html*/
+
+#logo {
+    width: 50%;
+    height: 120px;
+}
+
+
+/*header part in movie html */
+
+.row0 {
+    font-size: 15px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+/*span style for number 10*/
+
+#num {
+    font-size: 50px;
+}
+
+
+/*style for log out button*/
+
+.btn1 {
+    float: right;
+}
+
+.row1 {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+
+/*search button*/
+
+#searchid {
+    height: 34px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+/*style for sign up form's user already exists*/
+
+#title1 {
+    text-align: center;
+    color: red;
+}

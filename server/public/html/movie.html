@@ -1,0 +1,80 @@
+<!--movie application page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Movie App</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Rouge+Script|Eagle+Lake|Oleo+Scrip|Niconne|Unna|Redressed" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="container-fluid">
+        <header>
+            <section class="row0">
+
+                <section class="col-xs-6 col-sm-3 col-md-3 col-xl-3">
+                    <img src="http://jayashoppingcentre.my/v1/wp-content/uploads/2015/06/logo-tgv.png" class="img-circle" alt="logo" id="logo">
+                </section>
+
+                <section class="col-xs-6 col-sm-9 col-md-9 col-xl-9">
+                    <h1><center><span id="num">10</span> MOVIES TO WATCH BEFORE I DIE</center></h1>
+                </section>
+            </section>
+    </section>
+    <!--log out button it goes to log out html page-->
+    <a href="logout.html">
+        <button type="button" class="btn1">log out</button>
+    </a>
+    <hr>
+    <section class="container-fluid">
+        <section class="row1">
+            <section class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+
+                <input type="text" placeholder="search" id="searchid">
+                <!--buttons for search and favourites-->
+                <button type="button" class="btn btn-default" onclick="searchmovie()">search</buuton>
+
+                    <button type="button" class="btn btn-default" onclick="displayfav()">favourites</button>
+
+            </section>
+        </section>
+        <!--table for displaying searched movies and favourite movies-->
+        <center>
+            <table id="moviesdetails" border=1>
+                <th><img src="http://www.roadtovr.com/wp-content/uploads/2014/05/Jurasic.jpg"></th>
+                <th></th>
+                <th></th>
+            </table>
+        </center>
+
+    </section>
+    <footer>
+        <p>
+            <center>Copyrights2017@Allrights.Reserved</center>
+        </p>
+        </div>
+    </footer>
+    <!--functions file related to onclick events-->
+    <script src="../js/moviedetails.js"></script>
+    <!--bootstrap and jquery files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

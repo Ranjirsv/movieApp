@@ -1,0 +1,48 @@
+<!--login page as index page-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<header class="cinemasname">
+    <h1 id="title">ZGV Cinemas</h1>
+</header>
+<hr>
+
+<body>
+    <h1 id="title">Welcome to the login page</h1>
+    <center>
+    <form method="post" action="/login">
+        <table>
+            <tr>
+                <td>email</td>
+                <td>
+                    <input class="textbox" type="text" placeholder="Enter your mailid" id="username" name="username" required>
+                </td>
+            </tr>
+            <td>Password</td>
+            <td>
+                <input class="textbox" type="password" placeholder="Enter the password" id="pw" name="password" required>
+            </td>
+            </tr>
+            <tr><td></td>
+            <td> <input id="login" type="submit" value="login"  />
+            <a href="signup.html">Signup</a></td>
+           
+            </tr>
+        </table>
+        
+        </form>
+    </center>
+    <script src="../js/account.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
